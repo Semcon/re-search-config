@@ -1,0 +1,74 @@
+{
+	"engines": [
+		{
+			"name": "Google International",
+			"language": "eng",
+			"selectors": {
+				"input": ".gsfi",
+				"button": ".lsb",
+				"autocomplete": ".sbqs_c"
+			},
+			"url": "https://www.google.com/search?tbm=isch&q=",
+			"match": [
+				"google.com/search",
+				"tbm=isch"
+			],
+			"terms": "google"
+		}, {
+			"name": "Google Sweden",
+			"language": "swe",
+			"selectors": {
+				"input": ".gsfi",
+				"button": ".lsb",
+				"autocomplete": ".sbqs_c"
+			},
+			"url": "https://www.google.se/search?tbm=isch&q=",
+			"match": [
+				"google.se/search",
+				"tbm=isch"
+			],
+			"terms": "google"
+		}, {
+			"name": "Bing",
+			"language": "eng",
+			"selectors": {
+				"input": ".b_searchbox"
+			},
+			"url": "http://www.bing.com/images/search?q=",
+			"match": [
+				"bing.com/images/search"
+			],
+			"terms": "bing"
+		}
+	],
+	"terms": {
+		"google": {
+			"eng": {
+				"engineer": "engineer+female",
+				"politician": "politician+female",
+				"professor": "professor+female",
+				"police": "police+female -costume -stock"
+			},
+			"swe": {
+				"ingenjör": "ingenjör kvinna",
+				"politiker": "politiker kvinna",
+				"professor": "professor kvinna -site:se.dreamstime.com -site:se.depositphotos.com",
+				"polis": "polis kvinna -maskeraddräkt -sexig -site:www.betrendy.today -site:se.dreamstime.com -het -Underkläder"
+			}
+		},
+		"bing": {
+			"eng": {
+				"engineer": "engineer+female",
+				"politician": "politician+female",
+				"professor": "professor+female",
+				"police": "police+female -costume -stock"
+			},
+			"swe": {
+				"professor": "professor kvinna",
+				"sjuksköterska": "sjuksköterska manlig -site:crazyshop.no -maskeraddräkt",
+				"författare": "författare kvinna",
+				"pilot": "pilot kvinna"
+			}
+		}
+	}
+}

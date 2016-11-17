@@ -1,74 +1,1116 @@
 {
-	"engines": [
-		{
-			"name": "Google International",
-			"language": "eng",
-			"selectors": {
-				"input": ".gsfi",
-				"button": ".lsb",
-				"autocomplete": ".sbqs_c"
-			},
-			"url": "https://www.google.com/search?tbm=isch&q=",
-			"match": [
-				"google.com/search",
-				"tbm=isch"
-			],
-			"terms": "google"
-		}, {
-			"name": "Google Sweden",
-			"language": "swe",
-			"selectors": {
-				"input": ".gsfi",
-				"button": ".lsb",
-				"autocomplete": ".sbqs_c"
-			},
-			"url": "https://www.google.se/search?tbm=isch&q=",
-			"match": [
-				"google.se/search",
-				"tbm=isch"
-			],
-			"terms": "google"
-		}, {
-			"name": "Bing",
-			"language": "eng",
-			"selectors": {
-				"input": ".b_searchbox"
-			},
-			"url": "http://www.bing.com/images/search?q=",
-			"match": [
-				"bing.com/images/search"
-			],
-			"terms": "bing"
-		}
-	],
-	"terms": {
-		"google": {
-			"eng": {
-				"engineer": "engineer+female",
-				"politician": "politician+female",
-				"professor": "professor+female",
-				"police": "police+female -costume -stock"
-			},
-			"swe": {
-				"ingenjör": "ingenjör kvinna",
-				"politiker": "politiker kvinna",
-				"professor": "professor kvinna -site:se.dreamstime.com -site:se.depositphotos.com",
-				"polis": "polis kvinna -maskeraddräkt -sexig -site:www.betrendy.today -site:se.dreamstime.com -het -Underkläder"
-			}
-		},
-		"bing": {
-			"eng": {
-				"engineer": "engineer+female",
-				"politician": "politician+female",
-				"professor": "professor+female",
-				"police": "police+female -costume -stock"
-			},
-			"swe": {
-				"professor": "professor kvinna",
-				"sjuksköterska": "sjuksköterska manlig -site:crazyshop.no -maskeraddräkt",
-				"författare": "författare kvinna",
-				"pilot": "pilot kvinna"
-			}
-		}
-	}
+    "engines": [
+        {
+            "name": "Google International",
+            "language": "eng",
+            "selectors": {
+                "input": ".gsfi",
+                "button": ".lsb",
+                "autocomplete": ".sbqs_c"
+            },
+            "url": "https://www.google.com/search?tbm=isch&q=",
+            "match": [
+                "google.com/search",
+                "tbm=isch"
+            ],
+            "terms": "google"
+        },
+        {
+            "name": "Google Sweden",
+            "language": "swe",
+            "selectors": {
+                "input": ".gsfi",
+                "button": ".lsb",
+                "autocomplete": ".sbqs_c"
+            },
+            "url": "https://www.google.se/search?tbm=isch&q=",
+            "match": [
+                "google.se/search",
+                "tbm=isch"
+            ],
+            "terms": "google"
+        },
+        {
+            "name": "Bing",
+            "language": "eng",
+            "selectors": {
+                "input": ".b_searchbox"
+            },
+            "url": "http://www.bing.com/images/search?q=",
+            "match": [
+                "bing.com/images/search"
+            ],
+            "terms": "bing"
+        }
+    ],
+    "terms": {
+        "google": {
+            "Astronaut": {
+                "updated": "astronaut+female",
+                "dropdown": true
+            },
+            "Banker": {
+                "updated": "banker female",
+                "dropdown": true
+            },
+            "Basketball player": {
+                "updated": "basketball player female",
+                "dropdown": true
+            },
+            "Bodyguard": {
+                "updated": "bodyguard female",
+                "dropdown": true
+            },
+            "Bookkeeper": {
+                "updated": "bookkeeper male",
+                "dropdown": true
+            },
+            "Bricklayer": {
+                "updated": "female bricklayer",
+                "dropdown": true
+            },
+            "Bus driver": {
+                "updated": "bus driver female",
+                "dropdown": true
+            },
+            "Cab driver": {
+                "updated": "cab driver female",
+                "dropdown": true
+            },
+            "CEO": {
+                "updated": "CEO+female",
+                "dropdown": true
+            },
+            "Childminder": {
+                "updated": "male childminder",
+                "dropdown": true
+            },
+            "Comedian": {
+                "updated": "comedian+female",
+                "dropdown": true
+            },
+            "Conductor": {
+                "updated": "conductor female",
+                "dropdown": true
+            },
+            "Creative director": {
+                "updated": "Creative director female",
+                "dropdown": true
+            },
+            "Dancer": {
+                "updated": "dancer+male",
+                "dropdown": true
+            },
+            "Doctor": {
+                "updated": "doctor+female",
+                "dropdown": true
+            },
+            "Electrician": {
+                "updated": "electrician+female",
+                "dropdown": true
+            },
+            "Engineer": {
+                "updated": "engineer+female",
+                "dropdown": true
+            },
+            "Farmer": {
+                "updated": "farmer female",
+                "dropdown": true
+            },
+            "Film Director": {
+                "updated": "film+director+female",
+                "dropdown": true
+            },
+            "Firefighter": {
+                "updated": "firefighter+female",
+                "dropdown": true
+            },
+            "Flight attendant": {
+                "updated": "flight+attendant+male",
+                "dropdown": true
+            },
+            "Florist": {
+                "updated": "florist+male",
+                "dropdown": true
+            },
+            "Football player": {
+                "updated": "football player female",
+                "dropdown": true
+            },
+            "Game Designer": {
+                "updated": "game+designer+female ",
+                "dropdown": true
+            },
+            "Guitarist": {
+                "updated": "Female guitarist",
+                "dropdown": true
+            },
+            "Hairdresser": {
+                "updated": "hairdresser male",
+                "dropdown": true
+            },
+            "Investment Banker": {
+                "updated": "investment+banker+female",
+                "dropdown": true
+            },
+            "Journalist": {
+                "updated": "journalist women",
+                "dropdown": true
+            },
+            "Judge": {
+                "updated": "judge+female",
+                "dropdown": true
+            },
+            "Librarian": {
+                "updated": "librarian male",
+                "dropdown": true
+            },
+            "Makeup-artist": {
+                "updated": "makeup-artist male",
+                "dropdown": true
+            },
+            "Mechanic": {
+                "updated": "mechanic + female",
+                "dropdown": true
+            },
+            "Metal worker": {
+                "updated": "female metal worker",
+                "dropdown": true
+            },
+            "Midwife": {
+                "updated": "midwife+male",
+                "dropdown": true
+            },
+            "Model": {
+                "updated": "model+male",
+                "dropdown": true
+            },
+            "Motocross rider": {
+                "updated": "Female motocross rider",
+                "dropdown": true
+            },
+            "Mountain guide": {
+                "updated": "female mountain guide",
+                "dropdown": true
+            },
+            "Nurse": {
+                "updated": "nurse+male",
+                "dropdown": true
+            },
+            "Nutritionist": {
+                "updated": "nutritionist + male",
+                "dropdown": true
+            },
+            "Personal Trainer": {
+                "updated": "female personal trainer",
+                "dropdown": true
+            },
+            "Philosopher": {
+                "updated": "Philosopher female",
+                "dropdown": true
+            },
+            "Physicist": {
+                "updated": "physicist+female",
+                "dropdown": true
+            },
+            "Pilot": {
+                "updated": "pilot+female",
+                "dropdown": true
+            },
+            "Plumber": {
+                "updated": "plumber female",
+                "dropdown": true
+            },
+            "Police": {
+                "updated": "police+female",
+                "dropdown": true
+            },
+            "Politician": {
+                "updated": "politician+female",
+                "dropdown": true
+            },
+            "Preschool teacher": {
+                "updated": "preschool teacher male",
+                "dropdown": true
+            },
+            "President": {
+                "updated": "president+women",
+                "dropdown": true
+            },
+            "Priest": {
+                "updated": "female priest",
+                "dropdown": true
+            },
+            "Prime Minister": {
+                "updated": "prime+minister+female",
+                "dropdown": true
+            },
+            "Professional athlete": {
+                "updated": "Professional athlete+female",
+                "dropdown": true
+            },
+            "Professional boxer": {
+                "updated": "professional boxer female",
+                "dropdown": true
+            },
+            "Professional cyclist": {
+                "updated": "professional cyclist female",
+                "dropdown": true
+            },
+            "Professor": {
+                "updated": "professor+female",
+                "dropdown": true
+            },
+            "Receptionist": {
+                "updated": "receptionist+male",
+                "dropdown": true
+            },
+            "Secretary": {
+                "updated": "secretary+male",
+                "dropdown": true
+            },
+            "Security guard": {
+                "updated": "security guard female",
+                "dropdown": true
+            },
+            "Soccer player": {
+                "updated": "soccer player female",
+                "dropdown": true
+            },
+            "Social worker": {
+                "updated": "social worker male",
+                "dropdown": true
+            },
+            "Software developer": {
+                "updated": "software developer+female",
+                "dropdown": true
+            },
+            "Stock Broker": {
+                "updated": "stock broker female",
+                "dropdown": true
+            },
+            "Surgeon": {
+                "updated": "surgeon+female",
+                "dropdown": true
+            },
+            "Tailor": {
+                "updated": "tailor+female",
+                "dropdown": true
+            },
+            "Technician": {
+                "updated": "technician female",
+                "dropdown": true
+            },
+            "Truck Driver": {
+                "updated": "truck+driver+female",
+                "dropdown": true
+            },
+            "Engineers": {
+                "updated": "Engineers female",
+                "dropdown": false
+            },
+            "Politicians": {
+                "updated": "Politicians female",
+                "dropdown": false
+            },
+            "Professors": {
+                "updated": "Professors female",
+                "dropdown": false
+            },
+            "Firefighters": {
+                "updated": "Female firefighters",
+                "dropdown": false
+            },
+            "Nurses": {
+                "updated": "Nurses male",
+                "dropdown": false
+            },
+            "Journalists": {
+                "updated": "journalists women",
+                "dropdown": false
+            },
+            "Pilots": {
+                "updated": "pilots female",
+                "dropdown": false
+            },
+            "Film Directors": {
+                "updated": "Film Directors female",
+                "dropdown": false
+            },
+            "Investment Bankers": {
+                "updated": "Investment Bankers female",
+                "dropdown": false
+            },
+            "Stockbrokers": {
+                "updated": "Stockbrokers female",
+                "dropdown": false
+            },
+            "CEOs": {
+                "updated": "CEOs female",
+                "dropdown": false
+            },
+            "Software Developers": {
+                "updated": "software develops female",
+                "dropdown": false
+            },
+            "Technicians": {
+                "updated": "Technicians female",
+                "dropdown": false
+            },
+            "Presidents": {
+                "updated": "Presidents women",
+                "dropdown": false
+            },
+            "Prime Ministers": {
+                "updated": "Prime Ministers female",
+                "dropdown": false
+            },
+            "Game Designers": {
+                "updated": "Game Designers female",
+                "dropdown": false
+            },
+            "Judges": {
+                "updated": "judges female",
+                "dropdown": false
+            },
+            "Surgeons": {
+                "updated": "Surgeons female",
+                "dropdown": false
+            },
+            "Astronauts": {
+                "updated": "Astronauts female",
+                "dropdown": false
+            },
+            "Midwives": {
+                "updated": "Midwives male",
+                "dropdown": false
+            },
+            "Physicists": {
+                "updated": "Physicists female",
+                "dropdown": false
+            },
+            "Doctors": {
+                "updated": "Doctors female",
+                "dropdown": false
+            },
+            "Models": {
+                "updated": "Models male",
+                "dropdown": false
+            },
+            "Flight attendants": {
+                "updated": "Flight attendants male",
+                "dropdown": false
+            },
+            "Truck Drivers": {
+                "updated": "Truck Drivers female",
+                "dropdown": false
+            },
+            "Comedians": {
+                "updated": "Comedians female",
+                "dropdown": false
+            },
+            "Receptionists": {
+                "updated": "receptionists male",
+                "dropdown": false
+            },
+            "Nutritionists": {
+                "updated": "nutritionists male",
+                "dropdown": false
+            },
+            "Mechanics": {
+                "updated": "mechanics female",
+                "dropdown": false
+            },
+            "Plumbers": {
+                "updated": "plumbers female",
+                "dropdown": false
+            },
+            "Hairdressers": {
+                "updated": "hairdressers male",
+                "dropdown": false
+            },
+            "Librarians": {
+                "updated": "librarians male",
+                "dropdown": false
+            },
+            "Soccer players": {
+                "updated": "soccer players female",
+                "dropdown": false
+            },
+            "Farmers": {
+                "updated": "Farmers female",
+                "dropdown": false
+            },
+            "Security guards": {
+                "updated": "Security guards female",
+                "dropdown": false
+            },
+            "Bus drivers": {
+                "updated": "Bus drivers female",
+                "dropdown": false
+            },
+            "Basketball players": {
+                "updated": "Basketball players female",
+                "dropdown": false
+            },
+            "Bodyguards": {
+                "updated": "bodyguards female",
+                "dropdown": false
+            },
+            "cab drivers": {
+                "updated": "cab drivers female",
+                "dropdown": false
+            },
+            "Dancers": {
+                "updated": "Dancers male",
+                "dropdown": false
+            },
+            "Electricians": {
+                "updated": "Electricians female",
+                "dropdown": false
+            },
+            "Priests": {
+                "updated": "female priests",
+                "dropdown": false
+            },
+            "Tailors": {
+                "updated": "Tailors female",
+                "dropdown": false
+            },
+            "Secretaries": {
+                "updated": "secretaries male",
+                "dropdown": false
+            },
+            "Personal Trainers": {
+                "updated": "personal trainers female",
+                "dropdown": false
+            },
+            "Professional athletes": {
+                "updated": "pro athletes female",
+                "dropdown": false
+            },
+            "Guitarists": {
+                "updated": "female Guitarists ",
+                "dropdown": false
+            },
+            "Motocross riders": {
+                "updated": "Motocross riders female",
+                "dropdown": false
+            },
+            "Professional cyclists": {
+                "updated": "Professional cyclists female",
+                "dropdown": false
+            },
+            "Professional boxers": {
+                "updated": "Professional boxers female",
+                "dropdown": false
+            },
+            "Football players": {
+                "updated": "football players female",
+                "dropdown": false
+            },
+            "Preschool teachers": {
+                "updated": "preschool teachers male",
+                "dropdown": false
+            },
+            "Florists": {
+                "updated": "florists male",
+                "dropdown": false
+            },
+            "Makeup-artists ": {
+                "updated": "makeup-artists male",
+                "dropdown": false
+            },
+            "Childminders": {
+                "updated": "male childminders",
+                "dropdown": false
+            },
+            "Bookkeepers": {
+                "updated": "bookkeepers male",
+                "dropdown": false
+            },
+            "Creative directors": {
+                "updated": "Creative directors female",
+                "dropdown": false
+            },
+            "Bankers": {
+                "updated": "Bankers female",
+                "dropdown": false
+            },
+            "Bricklayers": {
+                "updated": "female bricklayers",
+                "dropdown": false
+            },
+            "Metal workers ": {
+                "updated": "female metal workers",
+                "dropdown": false
+            },
+            "Mountain guides": {
+                "updated": "female mountain guides",
+                "dropdown": false
+            },
+            "Philosophers": {
+                "updated": "Philosophers female",
+                "dropdown": false
+            },
+            "ingénieur": {
+                "updated": "ingénieur femme",
+                "dropdown": false
+            },
+            "ingénieurs": {
+                "updated": "ingénieurs femme",
+                "dropdown": false
+            },
+            "ingegnere": {
+                "updated": "donna ingegnere",
+                "dropdown": false
+            },
+            "工程师": {
+                "updated": "工程师女性",
+                "dropdown": false
+            },
+            "Ingeniør": {
+                "updated": "ingeniør kvinne",
+                "dropdown": false
+            },
+            "Ingeniører": {
+                "updated": "ingeniører kvinne",
+                "dropdown": false
+            },
+            "ingeniero": {
+                "updated": "mujer ingeniero",
+                "dropdown": false
+            },
+            "ingenieros": {
+                "updated": "mujer ingenieros",
+                "dropdown": false
+            },
+            "Ingenjör": {
+                "updated": "ingenjör kvinna",
+                "dropdown": false
+            },
+            "Ingenieur": {
+                "updated": "weibliche Ingenieur",
+                "dropdown": false
+            },
+            "Ingenieurs": {
+                "updated": "weibliche Ingenieurs",
+                "dropdown": false
+            },
+            "mérnök": {
+                "updated": "női mérnök",
+                "dropdown": false
+            }
+        },
+        "bing": {
+            "Astronaut": {
+                "updated": "astronaut+female",
+                "dropdown": true
+            },
+            "Banker": {
+                "updated": "banker female",
+                "dropdown": true
+            },
+            "Basketball player": {
+                "updated": "basketball player female",
+                "dropdown": true
+            },
+            "Bodyguard": {
+                "updated": "bodyguard female",
+                "dropdown": true
+            },
+            "Bookkeeper": {
+                "updated": "bookkeeper male",
+                "dropdown": true
+            },
+            "Bricklayer": {
+                "updated": "female bricklayer",
+                "dropdown": true
+            },
+            "Bus driver": {
+                "updated": "bus driver female",
+                "dropdown": true
+            },
+            "Cab driver": {
+                "updated": "cab driver female",
+                "dropdown": true
+            },
+            "CEO": {
+                "updated": "CEO+female",
+                "dropdown": true
+            },
+            "Childminder": {
+                "updated": "male childminder",
+                "dropdown": true
+            },
+            "Comedian": {
+                "updated": "comedian+female",
+                "dropdown": true
+            },
+            "Conductor": {
+                "updated": "conductor female",
+                "dropdown": true
+            },
+            "Creative director": {
+                "updated": "Creative director female",
+                "dropdown": true
+            },
+            "Dancer": {
+                "updated": "dancer+male",
+                "dropdown": true
+            },
+            "Doctor": {
+                "updated": "doctor+female",
+                "dropdown": true
+            },
+            "Engineer": {
+                "updated": "engineer+female",
+                "dropdown": true
+            },
+            "Farmer": {
+                "updated": "farmer female",
+                "dropdown": true
+            },
+            "Film Director": {
+                "updated": "film+director+female",
+                "dropdown": true
+            },
+            "Firefighter": {
+                "updated": "firefighter+female",
+                "dropdown": true
+            },
+            "Flight attendant": {
+                "updated": "flight+attendant+male",
+                "dropdown": true
+            },
+            "Florist": {
+                "updated": "florist+male",
+                "dropdown": true
+            },
+            "Football player": {
+                "updated": "football player female",
+                "dropdown": true
+            },
+            "Guitarist": {
+                "updated": "Female guitarist",
+                "dropdown": true
+            },
+            "Hairdresser": {
+                "updated": "hairdresser male",
+                "dropdown": true
+            },
+            "Investment Banker": {
+                "updated": "investment+banker+female",
+                "dropdown": true
+            },
+            "Journalist": {
+                "updated": "journalist women",
+                "dropdown": true
+            },
+            "Judge": {
+                "updated": "judge+female",
+                "dropdown": true
+            },
+            "Librarian": {
+                "updated": "librarian male",
+                "dropdown": true
+            },
+            "Makeup-artist": {
+                "updated": "makeup-artist male",
+                "dropdown": true
+            },
+            "Metal worker": {
+                "updated": "female metal worker",
+                "dropdown": true
+            },
+            "Midwife": {
+                "updated": "midwife+male",
+                "dropdown": true
+            },
+            "Model": {
+                "updated": "model+male",
+                "dropdown": true
+            },
+            "Motocross rider": {
+                "updated": "Female motocross rider",
+                "dropdown": true
+            },
+            "Mountain guide": {
+                "updated": "female mountain guide",
+                "dropdown": true
+            },
+            "Nurse": {
+                "updated": "nurse+male ",
+                "dropdown": true
+            },
+            "Nutritionist": {
+                "updated": "nutritionist + male",
+                "dropdown": true
+            },
+            "Personal Trainer": {
+                "updated": "female personal trainer",
+                "dropdown": true
+            },
+            "Philosopher": {
+                "updated": "Philosopher female",
+                "dropdown": true
+            },
+            "Physicist": {
+                "updated": "physicist+female",
+                "dropdown": true
+            },
+            "Pilot": {
+                "updated": "pilot+female",
+                "dropdown": true
+            },
+            "Plumber": {
+                "updated": "plumber female",
+                "dropdown": true
+            },
+            "Police": {
+                "updated": "police+female ",
+                "dropdown": true
+            },
+            "Politician": {
+                "updated": "politician+female",
+                "dropdown": true
+            },
+            "Preschool teacher": {
+                "updated": "preschool teacher male",
+                "dropdown": true
+            },
+            "President": {
+                "updated": "president+women",
+                "dropdown": true
+            },
+            "Priest": {
+                "updated": "female priest",
+                "dropdown": true
+            },
+            "Prime Minister": {
+                "updated": "prime+minister+female",
+                "dropdown": true
+            },
+            "Professional athlete": {
+                "updated": "Professional athlete+female",
+                "dropdown": true
+            },
+            "Professional boxer": {
+                "updated": "professional boxer female",
+                "dropdown": true
+            },
+            "Professional cyclist": {
+                "updated": "professional cyclist female",
+                "dropdown": true
+            },
+            "Professor": {
+                "updated": "professor+female",
+                "dropdown": true
+            },
+            "Receptionist": {
+                "updated": "receptionist+male",
+                "dropdown": true
+            },
+            "Security guard": {
+                "updated": "security guard female",
+                "dropdown": true
+            },
+            "Soccer player": {
+                "updated": "socker player female",
+                "dropdown": true
+            },
+            "Social worker": {
+                "updated": "social worker male",
+                "dropdown": true
+            },
+            "Software developer": {
+                "updated": "software developer+female",
+                "dropdown": true
+            },
+            "Surgeon": {
+                "updated": "surgeon+female",
+                "dropdown": true
+            },
+            "Tailor": {
+                "updated": "tailor+female",
+                "dropdown": true
+            },
+            "Technician": {
+                "updated": "technician female",
+                "dropdown": true
+            },
+            "Truck Driver": {
+                "updated": "truck+driver+female",
+                "dropdown": true
+            },
+            "Engineers": {
+                "updated": "Engineers female",
+                "dropdown": false
+            },
+            "Politicians": {
+                "updated": "Politicians female",
+                "dropdown": false
+            },
+            "Professors": {
+                "updated": "Professors female",
+                "dropdown": false
+            },
+            "Firefighters": {
+                "updated": "Female firefighters",
+                "dropdown": false
+            },
+            "Nurses": {
+                "updated": "Nurses male",
+                "dropdown": false
+            },
+            "Journalists": {
+                "updated": "journalists women",
+                "dropdown": false
+            },
+            "Pilots": {
+                "updated": "pilots female",
+                "dropdown": false
+            },
+            "Film Directors": {
+                "updated": "Film Directors female",
+                "dropdown": false
+            },
+            "Investment Bankers": {
+                "updated": "Investment Bankers female",
+                "dropdown": false
+            },
+            "CEOs": {
+                "updated": "CEOs female",
+                "dropdown": false
+            },
+            "Software Developers": {
+                "updated": "software develops female",
+                "dropdown": false
+            },
+            "Technicians": {
+                "updated": "Technicians female",
+                "dropdown": false
+            },
+            "Presidents": {
+                "updated": "Presidents women",
+                "dropdown": false
+            },
+            "Prime Ministers": {
+                "updated": "Prime Ministers female",
+                "dropdown": false
+            },
+            "Judges": {
+                "updated": "judges female",
+                "dropdown": false
+            },
+            "Surgeons": {
+                "updated": "Surgeons female",
+                "dropdown": false
+            },
+            "Astronauts": {
+                "updated": "Astronauts female",
+                "dropdown": false
+            },
+            "Midwives": {
+                "updated": "Midwives male",
+                "dropdown": false
+            },
+            "Physicists": {
+                "updated": "Physicists female",
+                "dropdown": false
+            },
+            "Doctors": {
+                "updated": "Doctors female",
+                "dropdown": false
+            },
+            "Models": {
+                "updated": "Models male",
+                "dropdown": false
+            },
+            "Flight attendants": {
+                "updated": "Flight attendants male",
+                "dropdown": false
+            },
+            "Truck Drivers": {
+                "updated": "Truck Drivers female",
+                "dropdown": false
+            },
+            "Comedians": {
+                "updated": "Comedians female",
+                "dropdown": false
+            },
+            "Receptionists": {
+                "updated": "receptionists male",
+                "dropdown": false
+            },
+            "Nutritionists": {
+                "updated": "nutritionists male",
+                "dropdown": false
+            },
+            "Hairdressers": {
+                "updated": "hairdressers male",
+                "dropdown": false
+            },
+            "Librarians": {
+                "updated": "librarians male",
+                "dropdown": false
+            },
+            "Soccer players": {
+                "updated": "soccer players female",
+                "dropdown": false
+            },
+            "Farmers": {
+                "updated": "Farmers female",
+                "dropdown": false
+            },
+            "Security guards": {
+                "updated": "Security guards female",
+                "dropdown": false
+            },
+            "Bus drivers": {
+                "updated": "Bus drivers female",
+                "dropdown": false
+            },
+            "Basketball players": {
+                "updated": "Basketball players female",
+                "dropdown": false
+            },
+            "Bodyguards": {
+                "updated": "bodyguards female",
+                "dropdown": false
+            },
+            "cab drivers": {
+                "updated": "cab drivers female",
+                "dropdown": false
+            },
+            "Dancers": {
+                "updated": "Dancers male",
+                "dropdown": false
+            },
+            "Priests": {
+                "updated": "female priests",
+                "dropdown": false
+            },
+            "Tailors": {
+                "updated": "Tailors female",
+                "dropdown": false
+            },
+            "Personal Trainers": {
+                "updated": "personal trainers female",
+                "dropdown": false
+            },
+            "Professional athletes": {
+                "updated": "pro athletes female",
+                "dropdown": false
+            },
+            "Guitarists": {
+                "updated": "female Guitarists ",
+                "dropdown": false
+            },
+            "Motocross riders": {
+                "updated": "Motocross riders female",
+                "dropdown": false
+            },
+            "Professional cyclists": {
+                "updated": "Professional cyclists female",
+                "dropdown": false
+            },
+            "Professional boxers": {
+                "updated": "Professional boxers female",
+                "dropdown": false
+            },
+            "Football players": {
+                "updated": "football players female",
+                "dropdown": false
+            },
+            "Preschool teachers": {
+                "updated": "preschool teachers male",
+                "dropdown": false
+            },
+            "Florists": {
+                "updated": "florists male",
+                "dropdown": false
+            },
+            "Makeup-artists ": {
+                "updated": "makeup-artists male",
+                "dropdown": false
+            },
+            "Childminders": {
+                "updated": "male childminders",
+                "dropdown": false
+            },
+            "Bookkeepers": {
+                "updated": "bookkeepers male",
+                "dropdown": false
+            },
+            "Creative directors": {
+                "updated": "Creative directors female",
+                "dropdown": false
+            },
+            "Bankers": {
+                "updated": "Bankers female",
+                "dropdown": false
+            },
+            "Bricklayers": {
+                "updated": "female bricklayers",
+                "dropdown": false
+            },
+            "Metal workers ": {
+                "updated": "female metal workers",
+                "dropdown": false
+            },
+            "Mountain guides": {
+                "updated": "female mountain guides",
+                "dropdown": false
+            },
+            "Philosophers": {
+                "updated": "Philosophers female",
+                "dropdown": false
+            },
+            "ingénieur": {
+                "updated": "ingénieur femme",
+                "dropdown": false
+            },
+            "ingénieurs": {
+                "updated": "ingénieurs femme",
+                "dropdown": false
+            },
+            "ingegnere": {
+                "updated": "donna ingegnere",
+                "dropdown": false
+            },
+            "工程师": {
+                "updated": "工程师女性",
+                "dropdown": false
+            },
+            "Ingeniør": {
+                "updated": "ingeniør kvinne",
+                "dropdown": false
+            },
+            "Ingeniører": {
+                "updated": "ingeniører kvinne",
+                "dropdown": false
+            },
+            "ingeniero": {
+                "updated": "mujer ingeniero",
+                "dropdown": false
+            },
+            "ingenieros": {
+                "updated": "mujer ingenieros",
+                "dropdown": false
+            },
+            "Ingenjör": {
+                "updated": "ingenjör kvinna",
+                "dropdown": false
+            },
+            "Ingenieur": {
+                "updated": "weibliche Ingenieur",
+                "dropdown": false
+            },
+            "Ingenieurs": {
+                "updated": "weibliche Ingenieurs",
+                "dropdown": false
+            }
+        }
+    }
 }

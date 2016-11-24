@@ -341,8 +341,8 @@
                 "updated": "Investment Bankers female",
                 "dropdown": false
             },
-            "Stockbrokers": {
-                "updated": "Stockbrokers female",
+            "Stock brokers": {
+                "updated": "Stock brokers female",
                 "dropdown": false
             },
             "CEOs": {
@@ -350,7 +350,7 @@
                 "dropdown": false
             },
             "Software Developers": {
-                "updated": "software develops female",
+                "updated": "software developers female",
                 "dropdown": false
             },
             "Technicians": {
@@ -486,7 +486,7 @@
                 "dropdown": false
             },
             "Professional athletes": {
-                "updated": "pro athletes female",
+                "updated": "professional athletes female",
                 "dropdown": false
             },
             "Guitarists": {
@@ -816,7 +816,7 @@
                 "dropdown": true
             },
             "Soccer player": {
-                "updated": "socker player female",
+                "updated": "soccer player female",
                 "dropdown": true
             },
             "Social worker": {
@@ -884,7 +884,7 @@
                 "dropdown": false
             },
             "Software Developers": {
-                "updated": "software develops female",
+                "updated": "software developers female",
                 "dropdown": false
             },
             "Technicians": {

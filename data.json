@@ -600,6 +600,10 @@
             "mérnök": {
                 "updated": "női mérnök",
                 "dropdown": false
+            },
+            "Photographer": {
+                "updated": "female photographer",
+                "dropdown": true
             }
         },
         "bing": {
@@ -1110,6 +1114,10 @@
             "Ingenieurs": {
                 "updated": "weibliche Ingenieurs",
                 "dropdown": false
+            },
+            "Photographer": {
+                "updated": "female photographer",
+                "dropdown": true
             }
         }
     }

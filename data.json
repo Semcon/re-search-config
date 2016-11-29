@@ -1,31 +1,14 @@
 {
     "engines": [
         {
-            "name": "Google International",
-            "language": "eng",
+            "name": "Google",
             "selectors": {
-                "input": ".gsfi",
-                "button": ".lsb",
-                "autocomplete": ".sbqs_c"
+                "input": ".gsfi"
             },
             "url": "https://www.google.com/search?tbm=isch&q=",
             "match": [
-                "google.com/search",
-                "tbm=isch"
-            ],
-            "terms": "google"
-        },
-        {
-            "name": "Google Sweden",
-            "language": "swe",
-            "selectors": {
-                "input": ".gsfi",
-                "button": ".lsb",
-                "autocomplete": ".sbqs_c"
-            },
-            "url": "https://www.google.se/search?tbm=isch&q=",
-            "match": [
-                "google.se/search",
+                "www.google",
+                "/search",
                 "tbm=isch"
             ],
             "terms": "google"

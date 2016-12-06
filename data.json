@@ -587,6 +587,14 @@
             "Photographer": {
                 "updated": "female photographer",
                 "dropdown": true
+            },
+            "handball player": {
+                "updated": "handball player female",
+                "dropdown": false
+            },
+            "handball players": {
+                "updated": "handball player female",
+                "dropdown": false
             }
         },
         "bing": {
@@ -1101,6 +1109,14 @@
             "Photographer": {
                 "updated": "female photographer",
                 "dropdown": true
+            },
+            "handball player": {
+                "updated": "handball player female",
+                "dropdown": false
+            },
+            "handball players": {
+                "updated": "handball player female",
+                "dropdown": false
             }
         }
     }
